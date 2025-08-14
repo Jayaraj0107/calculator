@@ -1,0 +1,52 @@
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        h1{
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .container{
+            background-color:rgba(17, 16, 16, 0.607);
+            width:100% ;
+            max-width: 500px;
+            text-align: center;
+            margin-top: 90px;
+            padding: 10px;
+            border-radius: 20px;
+            border-bottom:5px double rgba(35, 217, 22, 0.715) ;
+            border-top:5px double rgba(35, 217, 22, 0.715);
+        
+        }
+
+       .b{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:15px;
+       }
+
+       .in{
+       width: 100%;
+       margin-bottom: 20px;
+       height: 50px;
+       background-color: rgb(226, 228, 230);
+       font-size: 30px;
+       color: rgb(15, 14, 14);
+       }
+
+       .b button{
+        border-radius: 10px;
+        background-color:transparent;
+        color: white;
+        padding: 5px;
+         
+       }
+    
+        .b button:active{
+            background-color: #ea1c1c;
+        }
